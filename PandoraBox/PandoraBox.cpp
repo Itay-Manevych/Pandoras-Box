@@ -8,7 +8,11 @@ PandoraBox::PandoraBox()
 {
 	// Save the exe file in %APPDATA% (AppData/Roaming) and then append /PandoraBox/PandoraBox.exe
 	wchar_t buffer[MAX_PATH];
-	DWORD result = ExpandEnvironmentStringsW(L"%APPDATA%", buffer, MAX_PATH);
+	DWORD result = ExpandEnvironmentStringsW(
+					L"%APPDATA%",
+					buffer,
+					MAX_PATH
+					);
 	
 	if (result == 0 || result > MAX_PATH) {
 		return;
@@ -25,7 +29,11 @@ PandoraBox::PandoraBox()
 
 	if (!std::filesystem::exists(exe_file_path)) {
 		wchar_t current_exe_path[MAX_PATH];
-		GetModuleFileNameW(NULL, current_exe_path, MAX_PATH);
+		GetModuleFileNameW(
+				NULL,
+			  current_exe_path,
+				  MAX_PATH
+		);
 
 		std::filesystem::copy_file(current_exe_path, exe_file_path);
 	}
