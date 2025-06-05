@@ -54,7 +54,7 @@ void PandoraBox::ShowPopupBox()
 		return;
 	}
 
-	std::wstring message = L"You have opened the pandora box! Now you cant escape it :)";
+	std::wstring message = L"Oops! You shouldn't have opened Pandora's Box... :)";
 
 	// Run forever to resemble malware
 	while (true) {
