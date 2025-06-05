@@ -17,6 +17,6 @@ This project is a simulated malware designed for educational and research purpos
 
 This application does not cause actual harm, but it mimics basic malware behavior for learning and demonstration purposes.
 
-🚫 Do not run this on a system without permission
-🚫 Do not distribute or use this project for malicious purposes
-🛑 I take no responsibility for misuse
+🚫 Only run this program on computers where you have explicit authorization and legal permission  
+🚫 Do not distribute or use this project for malicious purposes  
+🛑 I take no responsibility for misuse  
