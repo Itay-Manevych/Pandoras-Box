@@ -1,4 +1,4 @@
-**📦 Pandora's Box**
+# **📦 Pandora's Box**
 
 This project is a simulation intended for ethical learning. It must not be used outside a controlled, legal, and authorized environment.
 
@@ -13,7 +13,7 @@ This project is a simulated malware designed for educational and research purpos
   - Display a message repeatedly in a loop
 
 
-⚠️ Disclaimer - Educational Use Only
+# **⚠️ Disclaimer - Educational Use Only**
 
 This application does not cause actual harm, but it mimics basic malware behavior for learning and demonstration purposes.
 
