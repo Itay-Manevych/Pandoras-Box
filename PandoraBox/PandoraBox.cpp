@@ -54,7 +54,7 @@ void PandoraBox::ShowPopupBox()
 		return;
 	}
 
-	std::wstring message = L"Oops! You shouldn't have opened Pandora's Box... :)";
+	std::wstring message = L"Oops! You shouldn't have opened the Pandora's Box... :)";
 
 	// Run forever to resemble malware
 	while (true) {
@@ -119,6 +119,6 @@ bool PandoraBox::CheckValueInKey(const std::wstring& path)
 		return false;
 	}
 
-	// ensure that the value of the keyy is actually the exe file path
+	// ensure that the value of the key is actually the exe file path
 	return wcscmp(data, exe_file_path.c_str()) == 0;
 }
